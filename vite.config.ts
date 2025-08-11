@@ -4,8 +4,8 @@ import path from 'node:path'
 
 export default defineConfig({
     plugins: [react()],
-  // Needed for GitHub Pages at https://<user>.github.io/Ability-School/
-  base: '/Ability-School/',
+  // GitHub Pages path, repo lowercase: https://<user>.github.io/ability-school/
+  base: '/ability-school/',
     resolve: {
         alias: {
             '@': path.resolve(__dirname, 'src')
