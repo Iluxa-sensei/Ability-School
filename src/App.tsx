@@ -32,7 +32,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename={import.meta.env.BASE_URL}>
         <Routes>
           {/* Public layout with landing navbar/footer */}
           <Route element={<PublicLayout />}>
